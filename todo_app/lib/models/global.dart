@@ -11,7 +11,7 @@ var homeListTitle = new TextStyle(
     fontFamily: 'Avenir',
     fontWeight: FontWeight.bold,
     color: darkGreyColor,
-    fontSize: 30.0);
+    fontSize: 27.5);
 var homeListSubtitle = new TextStyle(
     fontFamily: 'Avenir',
     fontWeight: FontWeight.bold,

@@ -2,9 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:todo_app/models/global.dart';
 
 class HomeToDoWidget extends StatelessWidget {
+  Key key;
+  HomeToDoWidget(this.key);
+  // String keyval;
+  // HomeToDoWidget(this.keyval);
   @override
   Widget build(BuildContext context) {
     return Container(
+      //key: Key(keyval),
       padding: EdgeInsets.only(top: 10),
       child: ListTile(
         subtitle: Text(
