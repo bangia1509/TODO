@@ -7,3 +7,13 @@ var intrayTitle = new TextStyle(
     fontWeight: FontWeight.bold,
     color: darkGreyColor,
     fontSize: 40.0);
+var homeListTitle = new TextStyle(
+    fontFamily: 'Avenir',
+    fontWeight: FontWeight.bold,
+    color: darkGreyColor,
+    fontSize: 30.0);
+var homeListSubtitle = new TextStyle(
+    fontFamily: 'Avenir',
+    fontWeight: FontWeight.bold,
+    color: darkGreyColor,
+    fontSize: 15.0);

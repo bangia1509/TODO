@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'TODO App',
       theme: ThemeData(
+        //accentColor: Colors.greenAccent,
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
@@ -44,9 +45,6 @@ class _MyHomePageState extends State<MyHomePage> {
             children: <Widget>[
               TabBarView(
                 children: [
-                  // new Container(
-                  //   color: darkGreyColor,
-                  // ),
                   HomePage(),
                   new Container(
                     color: Colors.orange,
